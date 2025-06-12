@@ -1,0 +1,27 @@
+/* Custom styles for KTEK Security Solutions Ltd */
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1581090700227-3b9d03d2d7c9?auto=format&fit=crop&w=1600&q=60') center/cover no-repeat;
+  height: 100vh;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.hero .container {
+  position: relative;
+  z-index: 2;
+}
+
+.navbar-brand {
+  letter-spacing: 1px;
+}
+
+section {
+  scroll-margin-top: 70px;
+}
