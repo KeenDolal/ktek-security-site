@@ -27,13 +27,13 @@ section {
 }
 
 :root {
-  --kt-primary: #0056b3;
-  --kt-accent: #ff6f00;
+  --kt-primary: ##002d62;
+  --kt-accent: ##f1c40f;
 }
 
 /* Gradient navbar */
 .navbar-dark.bg-dark {
-  background: linear-gradient(90deg, #001f3f 0%, #004d99 100%);
+  background: #002d62;
 }
 
 /* Primary headings */
@@ -48,7 +48,7 @@ h2, .card-title {
 }
 
 .btn-primary:hover, .btn-primary:focus {
-  background-color: #e65c00;
+  background-color:#e65c00;
   border-color: #e65c00;
 }
 
