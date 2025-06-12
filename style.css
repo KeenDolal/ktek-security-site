@@ -59,5 +59,11 @@ section:nth-of-type(even) {
 
 section:nth-of-type(odd) {
   background-color: #ffffff;
+  
+/* Subtle page background gradient */
+body {
+  background: linear-gradient(180deg, #f0f4ff 0%, #ffffff 100%);
+}
+
 }
 
