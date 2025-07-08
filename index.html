@@ -2,181 +2,129 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KTEK Security Solutions Ltd</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KTEK Security Solutions</title>
+
+  <!-- Bootstrap 5 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+
+  <style>
+    /* Simple styling tweaks */
+    .hero {
+      background: #0d6efd;
+      color: #fff;
+      padding: 120px 0;
+      text-align: center;
+    }
+    .hero h1 { font-size: 3rem; }
+    .card-img-top { object-fit: cover; height: 200px; }
+  </style>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-                    <a class="navbar-brand fw-bold d-flex align-items-center" href="#">
-                <img src="logo.svg" alt="KTEK Security Logo" height="40" class="me-2"> KTEK Security
-              </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#media">Media</a></li>
-        
-                        <li class="nav-item"><a class="nav-link" href="policies.html">Policies</a
-                                                                                                              <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>></li>
-                        
-        </ul>
-      </div>
-    </div>
-  </nav>
 
-  <header id="home" class="hero d-flex align-items-center text-center">
+  <!-- Hero / Jumbotron -->
+  <section class="hero">
     <div class="container">
-      <h1 class="display-4 fw-bold text-white">Professional Security Solutions</h1>
-      <p class="lead text-white-50">Protecting people, property and peace of mind.</p>
-      <a href="#contact" class="btn btn-primary btn-lg mt-3">Get in Touch</a>
-    </div>
-  </header>
-
-  <section id="about" class="py-5">
-    <div class="container">
-      <h2 class="text-center mb-4">About Us</h2>
-      <p class="lead text-center">KTEK Security Solutions Ltd is a leading provider of integrated security services across the UK. Our mission is to deliver cutting‑edge protection with integrity, reliability and professionalism.</p>
-      <div class="row mt-4">
-        <div class="col-md-4">
-          <h5>Experience</h5>
-          <p>With decades of combined industry expertise, our management team understands the evolving security landscape.</p>
-        </div>
-        <div class="col-md-4">
-          <h5>Accreditation</h5>
-          <p>We are fully SIA‑licensed and ISO‑certified, ensuring compliance with the highest standards.</p>
-        </div>
-        <div class="col-md-4">
-          <h5>24/7 Support</h5>
-          <p>Our control room operates round the clock, providing immediate response and real‑time reporting.</p>
-        </div>
-      </div>
+      <h1 class="mb-3">KTEK Security Solutions</h1>
+      <p class="lead">Professional, reliable and tailored security services across the UK.</p>
+      <a href="#contact" class="btn btn-light btn-lg">Get a Quote</a>
     </div>
   </section>
 
-  <section id="services" class="bg-light py-5">
+  <!-- Services -->
+  <section id="services" class="py-5">
     <div class="container">
-      <h2 class="text-center mb-4">Our Services</h2>
+      <h2 class="text-center mb-5">Our Services</h2>
       <div class="row g-4">
-        <div class="col-md-4">
+        <div class="col-md-3">
           <div class="card h-100 shadow-sm">
-            <img src="https://images.unsplash.com/photo-1581091012184-5c4d4e1c9be0?auto=format&fit=crop&w=800&q=60" class="card-img-top" alt="Manned Guarding">
+            <img src="https://via.placeholder.com/800x600?text=Manned+Guarding" class="card-img-top" alt="Manned Guarding">
             <div class="card-body">
               <h5 class="card-title">Manned Guarding</h5>
-              <p class="card-text">Uniformed security officers for corporate, retail and industrial sites.</p>
+              <p class="card-text">Highly trained SIA‑licensed guards for commercial and residential sites.</p>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
           <div class="card h-100 shadow-sm">
-            <img src="https://images.unsplash.com/photo-1581090700227-3b9d03d2d7c9?auto=format&fit=crop&w=800&q=60" class="card-img-top" alt="CCTV & Remote Monitoring">
+            <img src="https://via.placeholder.com/800x600?text=CCTV+Monitoring" class="card-img-top" alt="CCTV Monitoring">
             <div class="card-body">
-              <h5 class="card-title">CCTV & Remote Monitoring</h5>
-              <p class="card-text">State‑of‑the‑art camera systems with 24/7 monitoring and rapid response.</p>
+              <h5 class="card-title">CCTV Monitoring</h5>
+              <p class="card-text">24/7 remote surveillance with rapid response to incidents.</p>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
           <div class="card h-100 shadow-sm">
-            <img src="https://images.unsplash.com/photo-1581091870629-5c4d4e1c9be0?auto=format&fit=crop&w=800&q=60" class="card-img-top" alt="Access Control">
+            <img src="https://via.placeholder.com/800x600?text=Access+Control" class="card-img-top" alt="Access Control">
             <div class="card-body">
               <h5 class="card-title">Access Control</h5>
-              <p class="card-text">Advanced entry management solutions to secure your premises.</p>
+              <p class="card-text">Secure entry systems and personnel checks for your premises.</p>
             </div>
           </div>
         </div>
-  
-                    <div class="col-md-4">
-                <div class="card h-100 shadow-sm">
-                  <img src="https://images.unsplash.com/photo-1601536594379-d6c5e0eac7f3?auto=format&fit=crop&w=800&q=60" class="card-img-top" alt="Construction Site Security">
-                  <div class="card-body">
-                    <h5 class="card-title">Construction Site Security</h5>
-                    <p class="card-text">Specialist guarding and CCTV towers to protect assets and prevent trespass on building sites.</p>
-                  </div>
-                </div>
-              </div>
-</div>
+        <div class="col-md-3">
+          <div class="card h-100 shadow-sm">
+            <img src="https://via.placeholder.com/800x600?text=Site+Security" class="card-img-top" alt="Construction Site Security">
+            <div class="card-body">
+              <h5 class="card-title">Construction Site Security</h5>
+              <p class="card-text">Protect valuable assets and equipment on‑site, day and night.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
+  <!-- About -->
+  <section id="about" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">About Us</h2>
+      <p class="lead text-center">
+        With over a decade of industry experience, KTEK Security Solutions delivers bespoke security packages
+        that keep people, property and reputations safe.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact -->
   <section id="contact" class="py-5">
     <div class="container">
-      <h2 class="text-center mb-4">Contact Us</h2>
-      <p class="text-center">Ready to enhance your security? Reach out today.</p>
+      <h2 class="text-center mb-4">Get in Touch</h2>
       <div class="row justify-content-center">
-        <div class="col-md-8">
-          <form>
-            <div class="row mb-3">
-              <div class="col">
-                <input type="text" class="form-control" placeholder="Name" required>
-              </div>
-              <div class="col">
-                <input type="email" class="form-control" placeholder="Email" required>
-              </div>
+        <div class="col-lg-6">
+          <!-- Simple mailto form (replace address if needed) -->
+          <form action="mailto:info@kteksecurity.com" method="post" enctype="text/plain">
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" name="Name" required>
             </div>
             <div class="mb-3">
-              <textarea class="form-control" rows="5" placeholder="Message" required></textarea>
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" name="Email" required>
             </div>
-            <div class="text-center">
-              <button type="submit" class="btn btn-primary">Send Message</button>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" name="Message" rows="4" required></textarea>
             </div>
+            <button type="submit" class="btn btn-primary w-100">Send Enquiry</button>
           </form>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="media" class="py-5">
-  <div class="container">
-    <h2 class="text-center mb-4">In Action</h2>
-    <div id="mediaCarousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="https://images.unsplash.com/photo-1581091870629-5c4d4e1c9be0?auto=format&fit=crop&w=1200&q=60" class="d-block w-100" alt="Guard Patrol">
-        </div>
-        <div class="carousel-item">
-          <img src="https://images.unsplash.com/photo-1581090700227-3b9d03d2d7c9?auto=format&fit=crop&w=1200&q=60" class="d-block w-100" alt="CCTV Monitoring">
-        </div>
-        <div class="carousel-item">
-          <div class="ratio ratio-16x9">
-            <iframe src="https://www.youtube.com/embed/0C7u2i7RzJg?rel=0&amp;autoplay=0&amp;mute=1" title="KTEK Security Video" allowfullscreen></iframe>
-  
-  
-                        <div class="carousel-item">
-                <img src="https://images.unsplash.com/photo-1592194996301-31b7c0e2d2c8?auto=format&fit=crop&w=1200&q=60" class="d-block w-100" alt="Security Patrol">
-              </div>
-              <div class="carousel-item">
-                <img src="https://images.unsplash.com/photo-1561489396-b8d4f0c5c0a5?auto=format&fit=crop&w=1200&q=60" class="d-block w-100" alt="Security Vehicle">
-              </div>
-</div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#mediaCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#mediaCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </div>
-</section>
-
+  <!-- Footer -->
   <footer class="bg-dark text-white py-3">
     <div class="container text-center">
       &copy; <span id="year"></span> KTEK Security Solutions Ltd. All rights reserved.
     </div>
   </footer>
 
+  <!-- Bootstrap JS bundle -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script>
+    /* Auto‑update the copyright year */
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
 </body>
